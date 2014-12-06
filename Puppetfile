@@ -39,7 +39,7 @@ github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 # some/most of these if you want, but it's not recommended.
 
 github "chrome",      "1.2.0"
-github "clojure",     "1.3.0"
+#github "clojure",     "1.3.0"
 github "dnsmasq",     "2.0.1"
 github "dropbox",     "1.4.1"
 github "foreman",     "1.2.0"
@@ -65,7 +65,7 @@ github "sublime_text","1.1.0"
 github "sudo",        "1.0.0"
 github "vagrant",     "3.2.0"
 github "virtualbox",  "1.0.13"
-github "vlc",         "1.10"
+#github "vlc",         "1.10"
 github "xquartz",     "1.2.1"
 github "zsh",         "1.0.0"
 

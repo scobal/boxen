@@ -1,3 +1,4 @@
+*.lock
 /.bundle
 /.librarian
 /.projects
@@ -9,4 +10,4 @@
 /tmp
 /shared/*
 !/shared/README.md
-/vendor/gems/
+/vendor
