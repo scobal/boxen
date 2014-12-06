@@ -58,6 +58,13 @@ node default {
   include sublime_text
   include virtualbox
   include vagrant
+  #include dropbox
+  #include java
+  include iterm2::stable
+  #include chrome
+  #include clojure
+  #include spotify
+  #include vlc
 
 
 
