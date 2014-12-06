@@ -57,7 +57,7 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 github "sublime_text" "1.1.0"
-github "vagrant       "3.2.0"
+github "vagrant"      "3.2.0"
 github "virtualbox"   "1.0.13"
 github "zsh"          "1.0.0"
 
