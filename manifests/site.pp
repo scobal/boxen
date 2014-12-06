@@ -53,10 +53,13 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   # core modules, needed for most things
-  include dnsmasq
+  include zsh 
   include git
-  include hub
-  include nginx
+  include sublime_text
+  include virtualbox
+  include vagrant
+
+
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
