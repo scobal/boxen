@@ -39,9 +39,10 @@ github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 # some/most of these if you want, but it's not recommended.
 
 github "chrome",      "1.2.0"
-#github "clojure",     "1.3.0"
+github "clojure",     "1.3.0"
 github "dnsmasq",     "2.0.1"
 github "dropbox",     "1.4.1"
+github "firefox",     "1.2.3"
 github "foreman",     "1.2.0"
 github "gcc",         "2.2.0"
 github "git",         "2.7.0"

@@ -62,10 +62,24 @@ node default {
   include java
   include iterm2::stable
   include chrome
-  #include clojure
+  include clojure
   include spotify
   #include vlc
 
+  include osx::global::tap_to_click
+  include osx::dock::disable_dashboard
+  include osx::global::expand_save_dialog
+  include osx::global::expand_print_dialog
+  include osx::finder::empty_trash_securely
+  include osx::finder::unhide_library
+  include osx::finder::show_hidden_files
+  include osx::finder::show_all_filename_extensions
+  include osx::finder::no_file_extension_warnings
+  class { 'osx::dock::position': position => 'left' }
+  class { 'osx::global::natural_mouse_scrolling': enabled => false }
+  class { 'osx::sound::interface_sound_effects': enable => false }
+  class { 'osx::mouse::button_mode': mode => 2 }
+  class { 'osx::mouse::swipe_between_pages': enabled => true }
 
 
   # fail if FDE is not enabled
